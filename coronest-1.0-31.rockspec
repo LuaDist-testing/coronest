@@ -1,11 +1,11 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "coronest"
-version = "1.0-16"
+version = "1.0-31"
 
 -- LuaDist source
 source = {
-  tag = "1.0-16",
+  tag = "1.0-31",
   url = "git://github.com/LuaDist-testing/coronest.git"
 }
 -- Original source

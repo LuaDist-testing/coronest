@@ -2,12 +2,13 @@ package = "coronest"
 version = "master-1"
 
 source = {
-  url = "git://github.com/saucisson/lua-coronest",
+  url    = "git+https://github.com/saucisson/lua-coronest.git",
+  branch = "master",
 }
 
 description = {
-  summary     = "Coroutines that allow nesting",
-  detailed    = [[
+  summary    = "Coroutines that allow nesting",
+  detailed   = [[
 Coroutines are a powerful notion to suspend and resume execution of
 lightweight threads. They can be used for instance for scheduling,
 or for iteration.
@@ -19,8 +20,9 @@ This module provides a thin wrapper around the standard `coroutine`
 module to allow the definition of complex behaviors with nested
 coroutines.
   ]],
-  license     = "MIT/X11",
-  maintainer  = "Alban Linard <alban@linard.fr>",
+  license    = "MIT/X11",
+  homepage   = "https://github.com/saucisson/lua-coronest",
+  maintainer = "Alban Linard <alban@linard.fr>",
 }
 
 dependencies = {

@@ -1,17 +1,17 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "coronest"
-version = "0.1-1"
+version = "1.0-1"
 
 -- LuaDist source
 source = {
-  tag = "0.1-1",
+  tag = "1.0-1",
   url = "git://github.com/LuaDist-testing/coronest.git"
 }
 -- Original source
 -- source = {
 --   url = "git://github.com/saucisson/lua-coronest",
---   tag = "0.1",
+--   tag = "1.0",
 -- }
 
 description = {
